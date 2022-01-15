@@ -52,9 +52,6 @@ function weatherDetails(info) {
         document.querySelector(".location span").innerText = `${city}, ${country}`;
         document.querySelector(".temp .numb-2").innerText = Math.floor(feels_like);
         document.querySelector(".humidity span").innerText = `${humidity}%`;
-        // infoTxt.classList.remove("pending", "error");
-        // infoTxt.innerText = "";
-        // inputField.value = "";
         
     }
 }
