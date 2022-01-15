@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+    width: 400px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+
+}
+
+.input-area{
+    width: 100%;
+    padding: 16px;
+    
+
+}
+
+.input{
+    width:100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.weather-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.weather-data img {
+    max-width: 150px;
+    margin: 16px;
+}
+
+.weather-data .temp {
+    display: flex;
+    font-weight: 500;
+    font-size: 72px;
+  }
+  .weather-data .temp .numb {
+    font-weight: 600;
+  }
+  .weather-data .temp .deg {
+    font-size: 40px;
+    display: block;
+    margin: 10px 5px 0 0;
+  }
+  .weather-data .weather {
+    font-size: 21px;
+    text-align: center;
+    margin: -5px 20px 15px;
+  }
+  .weather-data .location {
+    display: flex;
+    font-size: 19px;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    align-items: flex-start;
+  }
+  .location i {
+    font-size: 22px;
+    margin: 4px 5px 0 0;
+  }
+  .weather-data .bottom-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .bottom-details .column {
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .column i {
+    font-size: 40px;
+  }
+  
+  .column .details {
+    margin-left: 3px;
+  }
+  .details .temp,
+  .humidity span {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -3px;
+  }
+  .details .temp .deg {
+    margin: 0;
+    font-size: 17px;
+    padding: 0 2px 0 1px;
+  }
+  .column .details p {
+    font-size: 14px;
+    margin-top: -6px;
+  }
+  .humidity i {
+    font-size: 37px;
+  }
+  
