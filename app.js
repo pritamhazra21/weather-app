@@ -3,8 +3,6 @@ const wIcon = document.querySelector("img")
 
 let api;
 
-let apikey = "";
-
 inputField.addEventListener("keyup", e => {
     if (e.key == "Enter" && inputField.value != "") {
         requestApi(inputField.value);
@@ -12,7 +10,7 @@ inputField.addEventListener("keyup", e => {
 })
 
 function requestApi(city) {
-    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apikey}`;
+    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=c80ff65592bede63a29e8f62ce7a1a0e`;
     fetchData();
 }
 
